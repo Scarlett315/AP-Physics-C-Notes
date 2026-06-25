@@ -1,0 +1,2 @@
+# 32.1 Gauss' Law for Magnetic Fields
+- The simplest magnetic structures are magnetic dipoles. Magnetic monopoles do not exist (as far as we know). Gauss' Law for magnetic fields, $$\Phi_B = \oint\vec B\cdot d\vec A = 0$$states that the net magnetic flux through any closed Gaussian surface is zero. It implies that magnetic monopoles do not exist. 

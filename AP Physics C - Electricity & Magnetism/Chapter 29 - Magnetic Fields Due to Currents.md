@@ -1,0 +1,16 @@
+# 29.1 Magnetic Field Due to a Current
+- the magnetic field set up by a current-carrying conductor can be found from the Biot-Savart Law. This law asserts that the contribution $d\vec B$ to the point produced by a current-length element $i \ d\vec s$ at a point _P_ located a distance _r_ from the current element is  $$d\vec{B}=\frac{\mu_0}{4\pi}\frac{id\vec{s}\times \hat{r}}{r^2}$$ $$||d\vec{B}||=\frac{\mu_0}{4\pi}\frac{i\ ds\sin\phi}{r^2}$$Here $\vec{r}$ is a unit vector that points from the element toward _P_. 
+- For a long straight wire carrying a current _i_, the Biot-Savart Law gives, for the magnitude of the magnetic field at a perp. distance _R_ from the wire, $$B = \frac{\mu_0i}{2\pi R}$$
+- The magnitude of the magnetic field at the center of a circular arc of radius _R_ and central angle $\phi$ (radians), carrying current, is $$B=\frac{\mu_0 i \phi}{2\pi R}$$
+# 29.2 Force Between Parallel Currents
+- Parallel wires carrying currents in the same direction attract each other, whereas parallel wires carrying currents in opposite directions repel each other.  (RHR)
+- The magnitude of the force on a length _L_ of either wire is $$F_{ba}=i_b LB_a \sin 90 = \frac{\mu_0 Li_a i_b}{2\pi d}$$where $d$ is the wire separation, and $i_a$ and $i_b$ are the currents in the wires
+- To find the force on a current-carrying wire due to a second current-carrying wire, first find the field due to the the second wire @ the site of the first wire. Then find the force on the first wire due to that field. $$B_a=\frac{\mu_0 i_a}{2\pi d}$$ $$\vec F_{ba} = i_b \vec L \times \vec B_a \qquad \text{and} \qquad F_{ba}=ILB_a\sin 90$$
+# 29.3 Ampere's Law
+- Ampere's Law states that $$\oint\vec B \cdot d\vec s = \mu_0I_{enc}$$The line integral in this equation is evaluated around a closed loop called an Amperian loop. The current $i$ on the right side is the *net* current encircled by the loop
+- Sign Convention: Curl your right hand around the Amperian loop, w/ the fingers pointing in the direction of integration. A current through the loop in the general direction of your outstretched thumb is assigned a +, and a current generally in the opposite direction is assigned a - 
+# 29.4 Solenoids and Toroids
+- Inside a long solenoid carrying current $i$, at points not near its ends the magnitude $B$ of the magntetic field is $$B = \mu_0in$$where $n$ is the # of turns per unit length
+- At a point inside a toroid, the magnitude $B$ of the magnetic field is $$B = \frac{\mu_0iN}{2\pi}\frac{1}{r}$$ where $r$ is the distance from the center of the toroid to the point
+# 29.5 A Current-Carrying Coil as a Magnetic Dipole
+- The magnetic field produced by a current-carrying coil, which is a magnetic dipole, at point $P$ located a distance $z$ along the coil's perpendicular central axis is parallel to the axis and is given by $$\vec{B}(z)=\frac{\mu_0}{2\pi}\frac{\vec \mu}{z^3}$$where $\vec \mu$ is the dipole moment of the coil. This equation only applies when $z$ is much greater than the dimensions of the coil. 
